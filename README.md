@@ -1,102 +1,93 @@
-Nome do Projeto: Aqua Pratas
+Justificativa Técnica e Estratégica: Implementações JavaScript 
 
-Tipo:
-Site institucional e catálogo de joias em prata 925
+Foco Atual e Escopo do Projeto 
 
-Integrantes e Papéis:
-Lara Rodrigues - Desenvolvedora - Estruturação das páginas em HTML e CSS, desenvolvimento da interface e testes de responsividade.
-Lidielma Maria- Designer - Criação do layout - Escolha de paleta e tipografia.
+No atual estágio de desenvolvimento do projeto Aqua Pratas, a estratégia principal é garantir uma presença digital sólida, rápida e com foco absoluto na conversão e engajamento em plataformas externas. 
 
-Tema: Acessórios e joias em prata 925.
+Analisando o público-alvo e os objetivos de negócio, o foco do website é atuar como uma vitrine de apresentação de alta qualidade e um ponto de direcionamento estratégico. Implementações em JavaScript, implementação de um filtro para exibir apenas itens em estoque, criação de uma aba de contato para aprimorar a comunicação entre a empresa e o cliente, e melhorias na interação geral do usuário com o site. 
 
-Objetivo: Desenvolver um site vendável e visualmente atrativo para apresentar e divulgar as coleções da marca Aqua Pratas, transmitindo sofisticação, leveza e credibilidade.
-O site busca mostrar os produtos de forma organizada e convidativa, oferecendo informações sobre os serviços e facilitando o contato com a marca.
+O sucesso inicial do site será medido pela clareza das informações, pela qualidade visual e pela eficiência em direcionar o usuário para a principal plataforma de vendas e engajamento da marca, o Instagram ou o canal de contato direto. Manter o código-base simples e focado em HTML/CSS solido e funcional. 
 
-Público-Alvo:
-O público-alvo são mulheres de 18 a 45 anos, com interesse em joias e acessórios finos, que valorizam design minimalista, qualidade e elegância.
-O foco está em consumidores que procuram joias autênticas em prata 925, tanto para uso pessoal quanto para presente.
+Embora a simplicidade seja a chave para o lançamento, reconhecemos o potencial de aprimoramento e deixamos registrado o que pode ser desenvolvido em etapas posteriores. 
 
-Justificativas do Negócio:
-A escolha do tema “Aqua Pratas” foi motivada pela necessidade de fortalecer a presença digital de um pequeno negócio real, mostrando seus produtos com credibilidade visual e experiência moderna de navegação.
+No futuro, essas são as implementações que podem ser desenvolvidas usando JavaScript para refinar a experiência do usuário e expandir as funcionalidades: 
 
-Link do Protótipo (Figma):
-https://www.figma.com/design/JtQfpp6UDBiGvwtCIMFfcr/Sem-t%C3%ADtulo?node-id=0-1&t=dnafTgWl207ZtYyd-1
+Validação de Formuário: 
 
-O protótipo inclui as telas:
-Página inicial (Hero + botão de navegação)
-Página de serviços/produtos (catálogo de anéis, pulseiras, brincos e berloques)
-Página “Sobre nós”
-Página “Contato” (com formulário funcional e informações)
+Implementar um feedback imediato para a cliente ao preencher o formulário de contato, garantindo que a mensagem seja enviada sem erros ou frustrações. 
 
-Estrutura de Pastas e Arquivos:
+Implementar um campo de avaliação e nota para os itens, com base no feedback dos clientes. 
 
-AquaPratas/
+Galerias de Imagens: 
 
+Desenvolver carrosséis interativos e responsivos para as coleções, permitindo que a cliente explore as peças com um toque. 
 
-|---index.html
+Filtros de Busca Intuitivos: 
 
+Caso nosso catálogo cresça e se torne mais robusto, podemos adicionar filtros dinâmicos que organizam as joias por estilo, material ou cor em um piscar de olhos, facilitando a descoberta. 
 
-|---servicos.html
+Checklist de Acessibilidade (Status Final) 
 
+O objetivo desta verificação é garantir que o projeto atende aos requisitos mínimos de acessibilidade. 
 
-|---sobre.html
+HTML Semântico  
 
+Uso correto das tags HTML5 para definir as principais regiões da página. 
 
-|---contato.html
+O <h1> é usado uma única vez por página, garantindo estrutura clara. 
 
-|----css/style.css
+A hierarquia é respeitada, utilizando <h2> para seções principais. 
 
-|-------img/
+Imagens e Multimídia 
 
-|---logo.jpg
+A imagem do logo possui alt="Aqua Pratas". 
 
-|---hero2.jpg
+A imagem de fundo é carregada via CSS (ideal para decoração). Requisito: Manter atenção para garantir que futuras imagens decorativas adicionadas no HTML recebam o atributo alt="". 
 
-|---equipe.jpg
+Formulários 
 
-|---anel-1.jpg; anel-2.jpg; anel-3.jpg
+Verificado no contato.html: Associações label + for/id estão implementadas corretamente para todos os campos. 
 
-|---pulseira-1.jpg;pulseira-2.jpg; pulseira-3.jpg
+Uso do atributo required no HTML em todos os campos. 
 
-|---brinco-1.jpg; brinco-2.jpg; brinco-3.jpg
+O formulário utiliza apenas o elemento <label> explícito para identificação do campo. 
 
-|---berloque-1.jpg; berloque-2.jpg; berloque-3.jpg
+Navegação por Teclado 
 
- |------README.md
+Uso de tags nativas (<a> e <button>) que são tabuláveis por padrão. 
 
-Etapas Realizadas
-| Data       | Etapa                                          | Responsável     |
-| ---------- | ---------------------------------------------- | --------------  |
-| 09/10/2025 | Escolha do tema e levantamento de requisitos   | Lara e Lidielma |
-| 11/10/2025 | Criação da identidade visual e paleta de cores | Lidielma Maria  |
-| 11/10/2025 | Protótipo no Figma e ajustes de layout         | Lidielma Maria  |
-| 12/10/2025 | Desenvolvimento das páginas HTML               | Lara Rodrigues  |
-| 13/10/2025 | Aplicação do CSS e responsividade              | Lara Rodrigues  |
-| 15/10/2025 | Revisão geral e testes finais                  | Lara e Lidielma |
+O arquivo style.css não possui a regra :focus para elementos interativos, o que impede a visualização clara do elemento ativo para usuários de teclado. 
 
-Justificativas de Design
-Cores:
-#5b9fae — azul suave, transmite serenidade, confiança e remete à água (conceito central da marca).
-#f4f6fb — fundo claro para destacar as joias e criar sensação de leveza.
-#1f2937 — texto principal, contraste legível.
-#6b7280 — texto secundário, tom neutro e moderno.
+Linha:   
 
-Tipografia:
-Fonte Inter, escolhida por sua legibilidade, estilo limpo e contemporâneo, alinhada ao público de joias modernas.
+:focus { 
 
-Ícones e Imagens:
-Ícones minimalistas e imagens de alta qualidade, valorizando o brilho e textura da prata 925.
-Uso de sombra suave (box-shadow) e bordas arredondadas (border-radius: 12px) para reforçar o conceito de delicadeza e sofisticação.
+  outline: 2px solid #005fcc; 
 
-Layout:
-Estrutura fluida e centrada, com destaque para o hero banner e chamadas para ação.
-Catálogo em grid responsivo, permitindo visualização confortável em qualquer dispositivo.
-Cores de destaque aplicadas apenas em botões e títulos, para guiar a atenção do usuário.
+  outline-offset: 2px; 
 
-Próximos Passos:
-Adicionar interatividade com JavaScript (menu mobile e efeitos de transição).
-Implementar formulário de contato funcional via backend (PHP ou API).
-Inserir links para redes sociais e botão do WhatsApp.
-Publicar o site no GitHub Pages.
-Testar acessibilidade e SEO básico (uso de alt, meta tags e headings).
-Ampliar catálogo com novos produtos e fotos profissionais.
+} 
+
+O skip link (link oculto que aparece ao focar) não foi implementado nos arquivos HTML, dificultando a navegação de usuários de teclado. 
+
+Sugestão:  
+
+<a href="#main-content" class="skip-link">Pular para o conteúdo principal</a> 
+
+ 
+
+(Mencionar CSS TBM)  
+
+.skip-link { 
+
+  position: absolute; 
+
+  left: -999px; 
+
+} 
+
+.skip-link:focus { 
+
+  left: 0; 
+
+} 
