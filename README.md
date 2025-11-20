@@ -91,3 +91,20 @@ Sugestão:
   left: 0; 
 
 } 
+
+
+Resumo dos Testes
+
+Testes realizados em dispositivos reais: Android, iPhone e iPad.
+
+Navegadores testados: Chrome Mobile, Safari (iOS) e Firefox Mobile.
+
+Botões e links responderam bem ao toque.
+
+Carregamento rápido em 4G e aceitável em 3G.
+
+Ajustes aplicados: melhoria da área clicável e otimização de imagens (lazy loading).
+
+Limitações: desempenho reduzido em conexões muito lentas e em dispositivos antigos.
+
+Evidências (prints) organizadas na pasta de documentação do projeto.
