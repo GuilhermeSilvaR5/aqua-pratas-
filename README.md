@@ -91,3 +91,52 @@ Sugestão:
   left: 0; 
 
 } 
+
+Teste: 
+
+# Aqua Pratas
+
+Site informativo desenvolvido para apresentar os serviços, produtos e contato da loja Aqua Pratas.  
+O projeto foi criado como parte de atividades acadêmicas, utilizando HTML, CSS e JavaScript.
+
+---
+
+## Tecnologias Utilizadas
+
+- HTML5
+- CSS3
+- JavaScript
+- GitHub Pages (publicação do site)
+
+---
+
+## Acesso ao Site
+
+- Link do GitHub Pages:  
+  https://lara-rodriguess.github.io/aqua-pratas-/servicos.html
+
+- Captura de tela do site publicado:  
+  ![Captura do site Aqua Pratas](images/print-site.png)
+
+- Data de publicação:  
+  19/11/2025
+
+---
+
+## Testes de Publicação
+
+Durante a verificação do site no GitHub Pages, foi confirmado que:
+
+- Todas as páginas estão carregando corretamente  
+- As imagens estão visíveis e sem erro de caminho  
+- Os estilos CSS estão sendo aplicados  
+- O JavaScript funciona normalmente (quando presente)  
+- Todos os arquivos utilizam caminhos relativos, garantindo o funcionamento online
+
+---
+
+## Como Contribuir
+
+1. Faça o fork do repositório  
+2. Crie uma branch nova:  
+   ```bash
